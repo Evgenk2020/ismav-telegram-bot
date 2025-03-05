@@ -7,15 +7,15 @@ public class contact_card {
             "VERSION:3.0\n" +
             "FN:ІСМАВ Продажі\n" +
             "ORG:ІСМАВ НААН\n" +
-            "TEL:+380965382575\n" +
-            "TEL:+380996480328\n" +
+            "TEL:+38096#######\n" +
+            "TEL:+38099#######\n" +
             "EMAIL:ins.ekonomika2017@gmail.com\n" +
-            "ADR:;;вулиця Шевченка, 97, Чернігів, Чернігівська область, 14000\n" +
+            "ADR:;;вулиця ###, ##, ###, ####, ######\n" +
             "URL:https://ismav.com.ua/\n" +
             "END:VCARD";
 
     private String first_name = "ІСАМВ продаж препаратів";
-    private String phone_number = "+380965382575";
+    private String phone_number = "+38096#######";
 
     public SendContact send_contacts(Long chat_id) {
         SendContact cont = new SendContact();
